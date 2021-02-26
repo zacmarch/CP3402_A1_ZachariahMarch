@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Helmet Showdown</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <title>Helmet Showdown</title>
 </head>
 <body>
 
@@ -16,22 +19,90 @@
             The ultimate website for staying up-to-date with the latest bicycle helmet news and reviews
         </p>
     </div>
-<nav>
-        <ul class="nav nav-pills justify-content-center my-3">
-            <li class="nav-item">
-                <a href="#" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">News</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Reviews</a>
-            </li>
+    <div class="container">
+        <nav>
+            <ul class="nav nav-pills justify-content-center my-3">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">News</a>
+                </li>
 
-        </ul>
-    </nav>
+            </ul>
+        </nav>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <h3>Recent Reviews</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card mb-3">
+                            <img src="Images/Rock.jpg" class="img-fluid card-img-top" alt="https://unsplash.com/photos/QxjEi8Fs9Hg"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Samsung RockHead 5</h5>
+                                <p class="card-text">This beast of a helmet will keep your head from exploding into a thousand peices when backflipping off a height of up too...</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-info">Read more...</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card mb-3">
+                            <img src="Images/Metal.jpg" class="img-fluid card-img-top" alt="https://unsplash.com/photos/r4gqCg1iies"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Apple Titanium Skull X</h5>
+                                <p class="card-text">Apple takes an interesting approach this time around with their 6kg head protector and boast a...</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-info">Read more...</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card mb-3">
+                            <img src="Images/Circuits.jpg" class="img-fluid card-img-top" alt="https://unsplash.com/photos/FO7JIlwjOtU"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Lenovo SmartHead 9</h5>
+                                <p class="card-text">The Lenovo continues to innovate as they bring multiple never before seen features to their newest addition to the SmartHead helmet line...</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-info">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <h3>Recent News</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">John cena releases new full face helmet line</h5>
+                        <img src="Images/Wrestle.jpg" class="img-fluid card-img" alt="https://unsplash.com/photos/ZOTkKCx_DAc"/>
+                        <div><strong><i>You can see me</i></strong></div>
+                        <p class="card-text">John cena's new line off full face helmets are turning heads as they feature 61 images of the wrestler in his prime...</p>
+                        <a href="#" class="btn btn-outline-info">Read more...</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo helmet combusts on man's head</h5>
+                        <img src="Images/Explosion.jpg" class="img-fluid card-img" alt="https://unsplash.com/photos/n-6dDxFI7xc"/>
+                        <div><strong><i>Explosive design</i></strong></div>
+                        <p class="card-text">David smith is lucky to avoid death after his Lenovo BigHead helmet combusts into flames on his morning ride to work..</p>
+                        <a href="#" class="btn btn-outline-info">Read more...</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
 
 </body>
 </html>
